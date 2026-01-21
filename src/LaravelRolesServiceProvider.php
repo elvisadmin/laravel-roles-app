@@ -11,8 +11,8 @@ class LaravelRolesServiceProvider extends ServiceProvider
         // bind things if needed
     }
 
-    public function boot()
+        public function boot()
     {
-        // publish migrations, etc.
+        $this->loadMigrationsFrom(__DIR__ . '/../database/migrations');
     }
 }
