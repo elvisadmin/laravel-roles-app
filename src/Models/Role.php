@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Models;
+namespace ElvisAdmin\RolesApp\Models; 
 
 use Illuminate\Database\Eloquent\Model;
 
